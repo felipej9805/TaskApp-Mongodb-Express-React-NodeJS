@@ -1,0 +1,29 @@
+{
+  "name": "TaskApp-Mongodb-Express-React-NodeJS",
+  "version": "1.0.0",
+  "description": "Aplicación CRUD de una sola pagina utilizando ReactJS, NodeJS que usara como framework Express y Mongodb como base de datos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipej9805/TaskApp-Mongodb-Express-React-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipej9805/TaskApp-Mongodb-Express-React-NodeJS/issues"
+  },
+  "homepage": "https://github.com/felipej9805/TaskApp-Mongodb-Express-React-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
